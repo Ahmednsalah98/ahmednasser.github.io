@@ -665,6 +665,12 @@
             font-size: 3rem;
             color: rgba(255, 255, 255, 0.3);
         }
+        .project-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;   /* أو contain لو عايز الصورة كاملة */
+    display:block;
+}
 
         .project-image img{
             width:100%;
@@ -1514,9 +1520,9 @@
                 </div>
                 
                 <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-comments"></i>
-                    </div>
+                  <div class="project-image">
+                  <img src="images/iphone-sales-dashboard.png" alt="iPhone Sales Dashboard">
+                   </div>
                     <div class="project-content">
                         <h3>iPhone Sales Performance Dashboard | Power BI & Data Analytics</h3>
                         <p>Interactive Power BI dashboard analyzing iPhone sales across countries, models, payment methods, and colors. Includes dynamic KPIs, sales trends, top-performing products, and business insights using DAX, Power Query, and interactive visualizations.</p>
@@ -1530,9 +1536,6 @@
                     </div>
                    </div>
                  
-                      <div class="project-image">
-                     <img src="images/iphone-sales-dashboard.png" alt="iPhone Sales Dashboard">
-                      </div>
                   
                     <div class="project-content">
                         <h3>Social Media Analytics Report</h3>
