@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>5 Essential SQL Queries</title><style>*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}body{background:#0f172a;color:#fff;line-height:1.8}.container{max-width:1000px;margin:auto;padding:60px 20px}.hero{text-align:center;margin-bottom:50px}.hero h1{font-size:42px;color:#60a5fa}.meta{color:#94a3b8;margin:15px 0}.hero img{width:100%;border-radius:14px;margin-top:25px}.card{background:#1e293b;padding:30px;border-radius:14px;margin:30px 0}.card h2{color:#60a5fa;margin-bottom:10px}pre{background:#111827;color:#7dd3fc;padding:18px;border-radius:10px;overflow:auto}.tip{background:#0f766e;padding:14px;border-radius:8px;margin-top:15px}.btn{display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px}.footer{text-align:center;margin:50px 0}</style></head><body><div class="container"><div class="hero"><h1>5 Essential SQL Queries Every Data Analyst Should Know</h1><div class="meta">June 2026 • 5 min read • Ahmed Nasser</div><p>Master the SQL commands used in almost every data analysis project.</p><img src="images/sql-banner.jpg" alt="SQL Banner"></div><div class="card"><h2>What You'll Learn</h2><ul><li>SELECT</li><li>WHERE</li><li>GROUP BY</li><li>JOIN</li><li>ORDER BY</li></ul></div><div class="card"><h2>1. SELECT</h2><pre>SELECT *
+FROM Employees;</pre><div class="tip">Retrieve data from a table.</div></div><div class="card"><h2>2. WHERE</h2><pre>SELECT *
+FROM Employees
+WHERE Salary > 5000;</pre><div class="tip">Filter rows using conditions.</div></div><div class="card"><h2>3. GROUP BY</h2><pre>SELECT Department,
+AVG(Salary)
+FROM Employees
+GROUP BY Department;</pre><div class="tip">Summarize records.</div></div><div class="card"><h2>4. JOIN</h2><pre>SELECT e.Name,d.DepartmentName
+FROM Employees e
+JOIN Departments d
+ON e.DepartmentID=d.ID;</pre><div class="tip">Combine related tables.</div></div><div class="card"><h2>5. ORDER BY</h2><pre>SELECT *
+FROM Employees
+ORDER BY Salary DESC;</pre><div class="tip">Sort query results.</div></div><div class="card"><h2>Final Thoughts</h2><p>These five SQL commands form the foundation of real-world data analysis.</p></div><div class="footer"><a class="btn" href="index.html">← Back to Portfolio</a></div></div></body></html>
